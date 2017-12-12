@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Guessing Game</title>
+
+    <!-- Bootstrap and CSS here-->
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  </head>
+  <body>
+    
+      <div id='app' class="center container">
+
+        <div id='headers'>
+          <!-- Title and subtitles! -->
+          <h1>Guessing Game</h1>
+          <h2>Guess a number between 1 and 100!</h2>
+        </div>
+
+        <div id='main' class="center">
+          <div id='input-parent'>
+            <!-- Player's guess input, and submit button -->
+            <input id="players-input" class="center" placeholder="#" maxlength='3' autofocus=autofocus></input>
+            <button id='submit' class='btn btn-success'>Go!</button>
+          </div>
+
+          <div id='guesses'>
+            <!-- unordered list of guesses -->
+            <ul id='guess-list'>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+                <li class='guess'>-</li>
+            </ul>
+          </div>
+
+          <div id="menu-btns">
+            <!-- reset and hint buttons -->
+            <button class="btn btn-warning">Reset</button>
+            <button class="btn btn-info">Hint</button>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div id='footer' class='center'>
+        <div class="row">
+          <div class='col-sm-4'>
+            <img src='fa-logo@2x.png'></img>
+          </div>
+
+          <div class='col-sm-4'>
+            <h4>Project by Matthew Appleby</h4>
+          </div>
+
+          <div class='col-sm-4'>
+            <img src='grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+
+  </body>
+</html>
