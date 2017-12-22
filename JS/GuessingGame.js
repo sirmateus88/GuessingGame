@@ -138,7 +138,7 @@ $(document).ready(function() {
             $('#result').text('Hint, the number is one of the following: ' + hints);
             $('#result').slideDown();
         } else {
-            alert('You only get one hint!');
+            alert('You only get one hint!!');
         }        
     });
 });
