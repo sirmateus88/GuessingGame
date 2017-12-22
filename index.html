@@ -4,7 +4,7 @@
     <title>Guessing Game</title>
 
     <!-- Bootstrap and CSS here-->
-    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link rel='stylesheet' type='text/css' href='CSS/style.css'>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   </head>
@@ -16,6 +16,7 @@
           <!-- Title and subtitles! -->
           <h1>Guessing Game</h1>
           <h2>Guess a number between 1 and 100!</h2>
+          <h3 id='result'></h3>
         </div>
 
         <div id='main' class="center">
@@ -38,8 +39,8 @@
 
           <div id="menu-btns">
             <!-- reset and hint buttons -->
-            <button class="btn btn-warning">Reset</button>
-            <button class="btn btn-info">Hint</button>
+            <button id='reset-button' class="btn btn-warning">Reset</button>
+            <button id='hint-button' class="btn btn-info">Hint</button>
           </div>
         </div>
       </div>
@@ -49,7 +50,7 @@
     <div id='footer' class='center'>
         <div class="row">
           <div class='col-sm-4'>
-            <img src='fa-logo@2x.png'></img>
+            <img src='Images/fa-logo@2x.png' class="img-responsive"></img>
           </div>
 
           <div class='col-sm-4'>
@@ -57,12 +58,13 @@
           </div>
 
           <div class='col-sm-4'>
-            <img src='grace_hopper_academy.png'></img>
+            <img src='Images/grace_hopper_academy.png' class="img-responsive"></img>
           </div>
 
 
         </div>
     </div>
-
+    <script src='../../SourceFiles/jquery-3.2.1.js'></script>
+    <script src='js/GuessingGame.js'></script>
   </body>
 </html>

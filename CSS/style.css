@@ -8,6 +8,11 @@
   #headers {
       color: white;
   }
+
+  #result {
+      display: none;
+  }
+
   img {
       display: inline;
       width: 200px;
@@ -61,7 +66,7 @@
   }
 
   body {
-    background-image: url('IMG_7142.jpg');
+    background-image: url('../Images/IMG_7142.jpg');
     background-size: cover;
   }
 
