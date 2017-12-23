@@ -131,6 +131,7 @@ $(document).ready(function() {
         $('#headers').find('h2').text('Guess a number between 1 and 100');
         $('#result').text('').slideUp();
         $('#guess-list li').text('-');
+        $('#hint, #submit').prop("disabled",false);
     });
     $('#hint-button').click(function(e){
         if(game.numOfHints == 0){
