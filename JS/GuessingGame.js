@@ -117,7 +117,6 @@ function makeAGuess(game){
 
 $(document).ready(function() {
     var game = new Game();
-    alert('jQuery loaded and stuff');
     $('#submit').click(function(e){
         $('#headers').find('h1').text(makeAGuess(game));
     });
